@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card {
+    width: 33.33%;
+    position: absolute;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card-inner {
+    margin: 10px;
+}
+
+#cards {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) and (min-width: 520px) {
+    .card {
+        width: 50%;
+    }
+}
+@media (max-width:520px) {
+    .card {
+        width: 100%;
+    }
+}
